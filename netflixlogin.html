@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        body{
+            background-image: url(./the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-fullview.jpg);
+        }
+        h1{
+            color: rgb(153, 16, 16);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+        }
+        .container{
+            background-color: rgba(0, 0, 0, 0.842);
+            width: 400px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin:auto;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .inner{
+            text-align: left;
+            padding: 40px 70px;
+        }
+        .fill{
+            border: 1px d grey;
+            background-color:rgba(0, 0, 0, 0.842);
+            width: 230px;
+            height: 30px;
+        }
+        .sign-in{
+            background-color: rgba(255, 0, 0, 0.671);
+            width: 240px;
+            height: 30px;
+            border: none;
+            color: whitesmoke;
+            font-size: 11px;
+        }
+        .or{
+            text-align: center;
+            font-size: 12px;
+        }
+        .forgot{
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0px;
+            font-size: 12px;
+        }
+        .code{
+            background-color: rgba(128, 128, 128, 0.322);
+            width: 240px;
+            height: 30px;
+            border: none;
+            color: whitesmoke;
+            font-size: 11px;
+            box-shadow: 0px -0.2px 1px;
+        }
+        .re{font-size: 12px;}
+        h5{
+            font-weight: lighter;
+            font-size: 12px;
+            
+        }
+        .new{
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        .learn{text-decoration: none;}
+
+        .new:hover{color: blue; text-decoration: underline;}
+        .learn:hover{color: blue; text-decoration: underline;}
+        .forgot:hover{color: blue; text-decoration: underline;}
+        .code:hover{color: blue;}
+
+        .fill:focus{ color: white;}
+
+
+    </style>
+</head>
+<body>
+    <h1>NETFLIX</h1>
+    <div class="container">
+        <div class="inner">
+            <h2>Sign In</h2>
+            <label for="Email"></label>
+            <input class="fill" placeholder="Email or Phone number" type="email" id="Email" ="Email" required>
+            <br> <br>
+            <label for="password"></label>
+            <input class="fill" placeholder="password" type="password" required>
+            <br><br>
+            <input class="sign-in" type="submit" value="Sign in">
+            <br>
+            <p class="or">OR</p>
+            <button class="code">Use a Sign-in Code</button>
+            <br>
+            <a class="forgot" href="#">Forgot password?</a>
+            
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label class="re" for="newsletter">Remember me</label>
+            <br>
+            <h5>New to Netflix?<a class="new" href="#"> Sign up now</a></h5>
+            
+            <h5>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a class="learn" href="#">Learn more</a> </h5>
+        </div>    
+    </div>
+</body>
+</html>
